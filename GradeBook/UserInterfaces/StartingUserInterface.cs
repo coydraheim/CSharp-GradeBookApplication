@@ -22,7 +22,7 @@ namespace GradeBook.UserInterfaces
                 CreateCommand(command);
             else if (command.StartsWith("load"))
                 LoadCommand(command);
-            else if (command == "help") adfasdf
+            else if (command == "help")
                 HelpCommand();
             else if (command == "quit")
                 Quit = true;
